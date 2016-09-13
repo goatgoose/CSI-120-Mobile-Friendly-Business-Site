@@ -4,7 +4,7 @@
 /*The following lines pertaining to dropdown content was borrowed from 'http://www.w3schools.com/howto/howto_js_dropdown.asp' then modified*/
 /* When the user clicks on the button,
  toggle between hiding and showing the dropdown content */
-function myFunction() {
+function dropFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
 }
 
