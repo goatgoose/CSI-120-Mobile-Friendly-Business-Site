@@ -5,7 +5,7 @@
     and (orientation: portrait) {
 
     #container {
-        height: 810px;
+        height: 500px;
     }
 
     #header {
@@ -16,6 +16,25 @@
         z-index: 1;
         margin-left: -8px;
         margin-top: -30px;
+    }
+
+    #loginForm {
+        padding-top: 150px;
+        padding-left: 25px;
+    }
+
+    .inputField {
+        height: 40px;
+        width: 290px;
+        font-size: 30px;
+    }
+
+    #loginButton {
+        height: 40px;
+        width: 320px;
+        font-size: 30px;
+        background-color: rgb(169, 229, 178);
+        color: #8C88EE;
     }
 
     #footer {
@@ -45,8 +64,54 @@
     #main {
         background-image: url("https://coton.champlain.edu/CSI12003/alice.easter/Business/Images/background2.png"); /*Image taken from 'http://static.tumblr.com/vy2pzfk/46zls6lto/deserve_bg.jpg' then modified*/
         background-position: -300px;
-        height: 800px;
+        height: 501px;
         width: 375px;
         margin-left: -8px;
+    }
+
+    .dropbtn {
+        background-color: #8C88EE;
+        color: #ffffff;
+        font-size: 40px;
+        border: none;
+        width: 30px;
+        height: 75px;
+        margin-left: -20px;
+        margin-top: -170px;
+        padding-top: 10px;
+        float: left;
+    }
+
+    /*The following lines pertaining to dropdown content was borrowed from 'http://www.w3schools.com/howto/howto_js_dropdown.asp' then modified*/
+    /*Container positioning*/
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #8C88EE;
+        min-width: 160px;
+        margin-top: -95px;
+        float: left;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    }
+
+    .dropdown-content a {
+        color: rgb(169, 229, 178);
+        padding: 22px 16px 0px 0px;
+        margin-top: -10px;
+        text-decoration: none;
+        text-align: center;
+        display: block;
+        font-size: 20px;
+        font-family: Calabri;
+    }
+
+    /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+    .show {
+        display: block;
     }
 }

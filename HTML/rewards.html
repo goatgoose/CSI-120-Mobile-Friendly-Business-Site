@@ -8,31 +8,31 @@
     <title>The Guac Shop - Rewards</title>
 </head>
 <body>
-    <div id="container">
-        <div id="header">
-            <!--A logo, and a dropdown box for options-->
-            <!--The following 8 lines were borrowed and modified from 'http://www.w3schools.com/howto/howto_js_dropdown.asp'-->
-            <div id="logo"><a href="https://coton.champlain.edu/CSI12003/alice.easter/Business/index.html"><img src="https://coton.champlain.edu/CSI12003/alice.easter/Business/Images/theGuacShoppeLogo.png" /></a></div>
-            <div class="dropdown">
-                <button onclick="dropFunction()" class="dropbtn">=</button>
-                <div id="myDropdown" class="dropdown-content">
-                    <a href="https://coton.champlain.edu/CSI12003/alice.easter/Business/HTML/food.html">Food</a>
-                    <a href="https://coton.champlain.edu/CSI12003/alice.easter/Business/HTML/locations.html">Locations</a>
-                    <a href="https://coton.champlain.edu/CSI12003/alice.easter/Business/HTML/rewards.html">Rewards</a>
-                    <a href="https://coton.champlain.edu/CSI12003/alice.easter/Business/HTML/story.html">Our Story</a>
-                    <a href="https://coton.champlain.edu/CSI12003/alice.easter/Business/HTML/shop.html">Shop Around</a>
-                    <a href="https://coton.champlain.edu/CSI12003/alice.easter/Business/HTML/guacTV.html">GuacTV</a>
-                    <a href="https://coton.champlain.edu/CSI12003/alice.easter/Business/HTML/blog.html">Read Our Blog</a>
-                    <a href="https://coton.champlain.edu/CSI12003/alice.easter/Business/HTML/work.html">Work Here</a>
-                    <a href="https://coton.champlain.edu/CSI12003/alice.easter/Business/HTML/faq.html">FAQ</a>
-                </div>
+<div id="container">
+    <div id="header">
+        <!--A logo, and a dropdown box for options-->
+        <!--The following 8 lines were borrowed and modified from 'http://www.w3schools.com/howto/howto_js_dropdown.asp'-->
+        <div id="logo"><a href="https://coton.champlain.edu/CSI12003/alice.easter/Business/index.html"><img src="https://coton.champlain.edu/CSI12003/alice.easter/Business/Images/theGuacShoppeLogo.png" /></a></div>
+        <div class="dropdown">
+            <button onclick="dropFunction()" class="dropbtn">=</button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="https://coton.champlain.edu/CSI12003/alice.easter/Business/HTML/food.html">Food</a>
+                <a href="https://coton.champlain.edu/CSI12003/alice.easter/Business/HTML/locations.html">Locations</a>
+                <a href="https://coton.champlain.edu/CSI12003/alice.easter/Business/HTML/rewards.html">Rewards</a>
+                <a href="https://coton.champlain.edu/CSI12003/alice.easter/Business/HTML/story.html">Our Story</a>
+                <a href="https://coton.champlain.edu/CSI12003/alice.easter/Business/HTML/shop.html">Shop Around</a>
+                <a href="https://coton.champlain.edu/CSI12003/alice.easter/Business/HTML/guacTV.html">GuacTV</a>
+                <a href="https://coton.champlain.edu/CSI12003/alice.easter/Business/HTML/blog.html">Read Our Blog</a>
+                <a href="https://coton.champlain.edu/CSI12003/alice.easter/Business/HTML/work.html">Work Here</a>
+                <a href="https://coton.champlain.edu/CSI12003/alice.easter/Business/HTML/faq.html">FAQ</a>
             </div>
         </div>
+    </div>
         <div id="main">
-            <form id="loginForm">
-                <input type="email" name="emailBox" id="emailBox" placeholder="Username" required /> <br>
-                <input type="text" name="passBox" id="passBox" placeholder="Password" required /> <br> <br>
-                <input type="button" value="LOG IN" onclick="submitFunction()" />
+            <form name="loginForm" id="loginForm">
+                <input type="email" class="inputField" name="emailBox" id="emailBox" placeholder="Username" required /> <br> <br>
+                <input type="text" class="inputField" name="passBox" id="passBox" placeholder="Password" required /> <br> <br>
+                <input type="button" id="loginButton" value="LOG IN" onclick="submitFunction()" />
             </form>
         </div>
         <div id="footer">
