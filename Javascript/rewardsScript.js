@@ -28,6 +28,6 @@ function submitFunction() {
     var password = String(document.loginForm.passBox.value);
 
     if (username === 'alice' && password === 'easter') {
-
+        window.location.assign("https://www.google.com");
     }
 }
