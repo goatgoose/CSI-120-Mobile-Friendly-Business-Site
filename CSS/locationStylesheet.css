@@ -15,7 +15,7 @@
         width: 100%;
         z-index: 1;
         margin-left: -8px;
-        margin-top: -30px;
+        margin-top: -44px;
     }
 
     #loginForm {
@@ -64,9 +64,163 @@
     #main {
         background-image: url("https://coton.champlain.edu/CSI12003/alice.easter/Business/Images/background2.png"); /*Image taken from 'http://static.tumblr.com/vy2pzfk/46zls6lto/deserve_bg.jpg' then modified*/
         background-position: -300px;
-        height: 501px;
+        height: 551px;
         width: 375px;
         margin-left: -8px;
+    }
+
+    #main img {
+        width: 100%;
+        margin-top: -5%;
+    }
+
+    h1 {
+        padding-top: 32.5%;
+        padding-left: 11%;
+        color: rgb(169, 229, 178)
+    }
+
+    #main p {
+        margin: -10% 11% 20% 11%;
+        font-size: 200%;
+        text-align: center;
+        color: rgb(215, 134, 134);
+    }
+
+    .dropbtn {
+        background-color: #8C88EE;
+        color: #ffffff;
+        font-size: 40px;
+        border: none;
+        width: 30px;
+        height: 75px;
+        margin-left: -20px;
+        margin-top: -170px;
+        padding-top: 10px;
+        float: left;
+    }
+
+    /*The following lines pertaining to dropdown content was borrowed from 'http://www.w3schools.com/howto/howto_js_dropdown.asp' then modified*/
+    /*Container positioning*/
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #8C88EE;
+        min-width: 160px;
+        margin-top: -95px;
+        float: left;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    }
+
+    .dropdown-content a {
+        color: rgb(169, 229, 178);
+        padding: 22px 16px 0px 0px;
+        margin-top: -10px;
+        text-decoration: none;
+        text-align: center;
+        display: block;
+        font-size: 20px;
+        font-family: Calabri;
+    }
+
+    /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+    .show {
+        display: block;
+    }
+}
+@media only screen
+and (device-height: 667px)
+and (device-width: 375px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) {
+
+    #container {
+        height: 500px;
+    }
+
+    #loginForm {
+        padding-top: 150px;
+        padding-left: 25px;
+    }
+
+    .inputField {
+        height: 40px;
+        width: 290px;
+        font-size: 30px;
+    }
+
+    #loginButton {
+        height: 40px;
+        width: 320px;
+        font-size: 30px;
+        background-color: rgb(169, 229, 178);
+        color: #8C88EE;
+    }
+
+    #header {
+        background-color: #8C88EE;
+        position: fixed;
+        height: 75px;
+        width: 100%;
+        z-index: 1;
+        margin-left: -8px;
+        margin-top: -44px;
+    }
+
+    #footer {
+        background-color: #8C88EE;
+        height: 46px;
+        width: 102.5%;
+        margin-left: -8px;
+        margin-top: 0px;
+        padding-top: 4px;
+    }
+
+    #footer p {
+        text-align: center;
+        font-size: 15px;
+        font-family: Courier;
+        color: #FFFFFF;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+
+    #logo img {
+        height: 150px;
+        width: 150px;
+        margin-left: 250px;
+        margin-top: 0px;
+    }
+
+    #main {
+        background-image: url("https://coton.champlain.edu/CSI12003/alice.easter/Business/Images/background2.png"); /*Image taken from 'http://static.tumblr.com/vy2pzfk/46zls6lto/deserve_bg.jpg' then modified*/
+        background-position: -300px;
+        height: 800px;
+        width: 102.5%;
+        margin-left: -8px;
+    }
+
+    #main img {
+        width: 100%;
+        margin-top: -5%;
+    }
+
+    h1 {
+        padding-top: 22.5%;
+        text-align: center;
+        color: rgb(169, 229, 178)
+    }
+
+    #main p {
+        margin: -10% 11% 20% 11%;
+        font-size: 200%;
+        text-align: center;
+        color: rgb(215, 134, 134);
     }
 
     .dropbtn {
