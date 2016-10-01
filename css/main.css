@@ -14,6 +14,10 @@ body {
     text-align: center;
 }
 
+img {
+    max-width: 100%;
+}
+
 /* http://getbootstrap.com/examples/sticky-footer-navbar/sticky-footer-navbar.css */
 .footer {
     position: absolute;
