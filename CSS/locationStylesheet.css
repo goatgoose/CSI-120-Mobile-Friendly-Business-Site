@@ -62,7 +62,7 @@
     }
 
     #main {
-        background-image: url("https://coton.champlain.edu/CSI12003/alice.easter/Business/Images/background2.png"); /*Image taken from 'http://static.tumblr.com/vy2pzfk/46zls6lto/deserve_bg.jpg' then modified*/
+        background-image: url("../Images/background2.png"); /*Image taken from 'http://static.tumblr.com/vy2pzfk/46zls6lto/deserve_bg.jpg' then modified*/
         background-position: -300px;
         height: 551px;
         width: 375px;
@@ -198,7 +198,7 @@ and (orientation: landscape) {
     }
 
     #main {
-        background-image: url("https://coton.champlain.edu/CSI12003/alice.easter/Business/Images/background2.png"); /*Image taken from 'http://static.tumblr.com/vy2pzfk/46zls6lto/deserve_bg.jpg' then modified*/
+        background-image: url("../Images/background2.png"); /*Image taken from 'http://static.tumblr.com/vy2pzfk/46zls6lto/deserve_bg.jpg' then modified*/
         background-position: -300px;
         height: 800px;
         width: 102.5%;
