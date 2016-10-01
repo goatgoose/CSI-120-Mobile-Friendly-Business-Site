@@ -19,6 +19,14 @@ body {
     color: #FFFFFF;
 }
 
+.logo {
+    position: absolute;
+    max-width: 300px;
+    width: 30%;
+    margin-left: 50%;
+    margin-top: -5%;
+}
+
 .content {
     padding: 40px 15px;
 }
