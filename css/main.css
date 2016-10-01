@@ -19,6 +19,10 @@ body {
     color: #FFFFFF;
 }
 
+#navbar.navbar-collapse {
+    max-height: none;
+}
+
 .logo {
     position: absolute;
     max-width: 300px;
