@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>The Guac House</title>
+    <title>Rewards</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/rewards.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
@@ -22,21 +22,21 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <div class="logo"><a href="#"><img src="Images/theGuacShoppeLogo.png"></a></div>
+                <div class="logo"><a href="../index.html"><img src="../Images/theGuacShoppeLogo.png"></a></div>
                 <a class="navbar-brand" href="#">The Guac House</a>
             </div>
             <div id="navbar" class="collapse navbar-collapse">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="html/food.html">Food</a></li>
-                    <li><a href="html/locations.html">Locations</a></li>
-                    <li><a href="html/rewards.html">Rewards</a></li>
-                    <li><a href="html/story.html">Our Story</a></li>
-                    <li><a href="html/shop.html">Shop Around</a></li>
-                    <li><a href="html/guacTV.html">GuacTV</a></li>
-                    <li><a href="html/blog.html">Read Our Blog</a></li>
-                    <li><a href="html/work.html">Work Here</a></li>
-                    <li><a href="html/faq.html">FAQ</a></li>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="food.html">Food</a></li>
+                    <li><a href="locations.html">Locations</a></li>
+                    <li class="active"><a href="#">Rewards</a></li>
+                    <li><a href="story.html">Our Story</a></li>
+                    <li><a href="shop.html">Shop Around</a></li>
+                    <li><a href="guacTV.html">GuacTV</a></li>
+                    <li><a href="blog.html">Read Our Blog</a></li>
+                    <li><a href="work.html">Work Here</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
                 </ul>
             </div>
         </div>
@@ -44,8 +44,18 @@
 
     <div class="container">
         <div class="content">
-            <h1>Best Guac in the Universe!</h1>
-            <p class="lead">We pride ourselves as being the best creators of guac ever known to not only the hipsters of our planet, but the ENTIRE UNIVERSE.<br> Never before has anyone seen, smelt, or tasted something quite so unique and amazing, nor will they ever in any other place!</p>
+            <!-- http://getbootstrap.com/css/#forms -->
+            <form>
+                <div class="form-group">
+                    <label for="usernameInput">Username</label>
+                    <input type="email" class="form-control" id="usernameInput" placeholder="Username">
+                </div>
+                <div class="form-group">
+                    <label for="passwordInput">Password</label>
+                    <input type="password" class="form-control" id="passwordInput" placeholder="Password">
+                </div>
+                <button type="submit" class="btn btn-default">Log In</button>
+            </form>
         </div>
     </div>
 

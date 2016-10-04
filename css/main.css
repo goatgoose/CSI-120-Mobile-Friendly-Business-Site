@@ -1,0 +1,65 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    padding-top: 50px;
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    background-image: url("../Images/background2.png");
+    color: #D78686;
+}
+
+.navbar-header {
+    background-color: #8C88EE;
+}
+
+.navbar-header a.navbar-brand {
+    color: #FFFFFF;
+}
+
+#navbar.navbar-collapse {
+    max-height: none;
+}
+
+.logo {
+    position: absolute;
+    max-width: 150px;
+    width: 30%;
+    margin-left: 50%;
+    margin-top: -5%;
+}
+
+.content {
+    padding: 40px 15px;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    color: #A9E5B2;
+    font-size: 40pt;
+}
+
+a {
+    color: #7E7FDC;
+}
+
+
+/* http://getbootstrap.com/examples/sticky-footer-navbar/sticky-footer-navbar.css */
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 50px;
+    background-color: #8C88EE;
+    color: #FFFFFF;
+    text-align: center;
+}
+.footer .container {
+    margin-top: 15px;
+}

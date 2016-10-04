@@ -1,0 +1,20 @@
+.content {
+    text-align: left;
+    padding: 0px;
+}
+
+.content h1 {
+    padding: 0px 20px;
+}
+
+.main .container {
+    padding: 0px;
+}
+
+.content .container {
+    padding: 10px 20px;
+}
+
+.content .container:nth-child(even) {
+    color:
+}
